@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.statefulbackend.mapper.SampleMapper">
+<mapper namespace="com.example.mapper.SampleMapper">
 
-    <resultMap id="BaseResultMap" type="com.example.statefulbackend.model.domain.Sample">
+    <resultMap id="BaseResultMap" type="com.example.model.domain.Sample">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="sampleTest" column="sampleTest" jdbcType="VARCHAR"/>
             <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
